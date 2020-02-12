@@ -1,0 +1,865 @@
+/* Newsletter PopUp */
+
+.subscribe_area>h2,
+.subscribe-content>h2 {
+    color: #000000;
+}
+
+.subscribe_area>p,
+.subscribe-content>p {
+    color: #666666;
+}
+
+.grid__item h1 {
+    color: maroon;
+}
+
+.subscribe-form-input {
+    border: 1px solid #ddd;
+    color: #ddd;
+}
+
+.subscribe-form-input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #ddd !important;
+}
+
+.subscribe-form-input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #ddd !important;
+}
+
+.subscribe-form-input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #ddd !important;
+}
+
+.subscribe-form-input:placeholder {
+    /* Firefox 18- */
+    color: #ddd !important;
+}
+
+.newsletter-btn {
+    background: #a749ff none repeat scroll 0 0;
+    color: #fff;
+}
+
+.newsletter-btn:hover {
+    background: #000000 none repeat scroll 0 0;
+    color: #ffffff;
+}
+
+.popup_off {
+    color: #a749ff;
+}
+
+.newsletter_popup_inner:before {
+    background: #ffffff;
+    opacity: 0.1;
+}
+
+.form-group.subscribe-form-group p {
+    color: #000000;
+}
+
+
+/* Breadcurmb Banner */
+
+.breadcrumbs {
+    background: #f7f7f7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.overlay-bg::before {
+    background: #000000 none repeat scroll 0 0;
+    opacity: 0;
+}
+
+.breadcrumbs-title {
+    color: #5b5858;
+}
+
+.breadcrumb-list>li>a {
+    color: #5b5858;
+}
+
+.breadcrumb-list>li::before {
+    color: #5b5858;
+}
+
+.breadcrumb-list>li {
+    color: #a749ff;
+}
+
+@media (max-width: 767px) {
+    .breadcrumbs {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+
+/* Top Bar Noticfication */
+
+.top-notification-bar {
+    background: #f4bbfa;
+    background: -moz-linear-gradient(left, #f4bbfa 0%, #f4bbfa 100%);
+    /* background: -webkit-gradient(left top, right top, color-stop(0%, #f4bbfa), color-stop(100%, #f4bbfa)); */
+    background: -webkit-linear-gradient(left, #f4bbfa 0%, #f4bbfa 100%);
+    background: -o-linear-gradient(left, #f4bbfa 0%, #f4bbfa 100%);
+    background: -ms-linear-gradient(left, #f4bbfa 0%, #f4bbfa 100%);
+    background: linear-gradient(to right, #f4bbfa 0%, #f4bbfa 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f4bbfa', endColorstr='#f4bbfa', GradientType=1);
+}
+
+.notification-entry p a {
+    background-color: #f29afa;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.notification-entry p a:hover {
+    background-color: #f29afa;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.notification-close-btn {
+    background-color: maroon;
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: #000000;
+}
+
+.notification-close-btn:hover {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: #000000;
+}
+
+.notification-entry p {
+    color: #000000;
+}
+
+.top-notification-bar::before {
+    background: rgba(0, 0, 0, 0);
+}
+
+
+/* Typography */
+
+@font-face {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: normal;
+    src: url("https://fonts.shopifycdn.com/poppins/poppins_n4.934accbf9f5987aa89334210e6c1e9151f37d3b6.woff2?&hmac=a26c177067467710b799e13b71d5721f54b5f733f905988a09d37a77232f0126") format("woff2"), url("https://fonts.shopifycdn.com/poppins/poppins_n4.ee28d4489eaf5de9cf6e17e696991b5e9148c716.woff?&hmac=f99517b82b6da9de0cdfe8aceb40e4132652b5e3e3d1c3b0906fe722b210b3bf") format("woff");
+}
+
+@font-face {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: normal;
+    src: url("https://fonts.shopifycdn.com/poppins/poppins_n4.934accbf9f5987aa89334210e6c1e9151f37d3b6.woff2?&hmac=a26c177067467710b799e13b71d5721f54b5f733f905988a09d37a77232f0126") format("woff2"), url("https://fonts.shopifycdn.com/poppins/poppins_n4.ee28d4489eaf5de9cf6e17e696991b5e9148c716.woff?&hmac=f99517b82b6da9de0cdfe8aceb40e4132652b5e3e3d1c3b0906fe722b210b3bf") format("woff");
+}
+
+@font-face {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: normal;
+    src: url("https://fonts.shopifycdn.com/poppins/poppins_n4.934accbf9f5987aa89334210e6c1e9151f37d3b6.woff2?&hmac=a26c177067467710b799e13b71d5721f54b5f733f905988a09d37a77232f0126") format("woff2"), url("https://fonts.shopifycdn.com/poppins/poppins_n4.ee28d4489eaf5de9cf6e17e696991b5e9148c716.woff?&hmac=f99517b82b6da9de0cdfe8aceb40e4132652b5e3e3d1c3b0906fe722b210b3bf") format("woff");
+}
+
+html,
+body,
+input,
+textarea,
+button,
+select {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* End Typography */
+
+
+/* Custom and Customer Page */
+
+.theme-default-margin,
+.shopify-challenge__container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+@media (max-width: 767px) {
+    .theme-default-margin,
+    .shopify-challenge__container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+.create-custom-page {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+@media (max-width: 767px) {
+    .create-custom-page {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+}
+
+
+/* End Custom Page */
+
+
+/* QuickView */
+
+
+/* End Quickview */
+
+
+/* ======================================================================
+Name: Your Theme Color CSS file
+====================================================================== */
+
+#YourID,
+.YourClass {
+    color: #a749ff;
+}
+
+a:hover {
+    color: #a749ff;
+}
+
+#scrollUp {
+    background-color: #a749ff;
+}
+
+.btn-hover a:hover {
+    border: 1px solid #a749ff;
+}
+
+.btn-hover a::after {
+    background: #a749ff;
+}
+
+.main-menu nav ul li ul.submenu li a:hover {
+    color: #a749ff;
+}
+
+.main-menu nav ul li ul.submenu li a::before {
+    background: #a749ff none repeat scroll 0 0;
+}
+
+.main-menu nav ul li ul.mega-menu>li ul li a:hover {
+    color: #a749ff;
+}
+
+.main-menu nav ul li ul.mega-menu>li ul li a::before {
+    background: #a749ff none repeat scroll 0 0;
+}
+
+.main-menu nav ul li:hover a {
+    color: #a749ff;
+}
+
+.stick .main-menu.menu-white nav ul li a:hover {
+    color: #a749ff;
+}
+
+.header-right-wrap .same-style:hover>a {
+    color: #a749ff;
+}
+
+.header-right-wrap .same-style .account-dropdown ul li a:hover {
+    color: #a749ff;
+}
+
+.header-right-wrap .same-style.cart-wrap:hover>button {
+    color: #a749ff;
+}
+
+.header-right-wrap .same-style.cart-wrap .shopping-cart-content ul li .shopping-cart-title h4 a:hover {
+    color: #a749ff;
+}
+
+.header-right-wrap .same-style.cart-wrap .shopping-cart-content ul li .shopping-cart-delete a {
+    color: #a749ff;
+}
+
+.header-right-wrap .same-style.header-search .search-content form .button-search {
+    background: #a749ff;
+}
+
+.stick .header-right-wrap.header-right-wrap-white .same-style>a:hover {
+    color: #a749ff;
+}
+
+.stick .header-right-wrap.header-right-wrap-white .same-style.cart-wrap>button:hover {
+    color: #a749ff;
+}
+
+.language-currency-wrap .same-language-currency .lang-car-dropdown ul li a:hover {
+    color: #a749ff;
+}
+
+.language-currency-wrap .same-language-currency:hover>a {
+    color: #a749ff;
+}
+
+.sidebar-menu nav ul li ul.submenu li a:hover {
+    color: #a749ff;
+}
+
+.sidebar-menu nav ul li ul.submenu li a::before {
+    background: #a749ff none repeat scroll 0 0;
+}
+
+.sidebar-menu nav ul li ul.mega-menu>li ul li a:hover {
+    color: #a749ff;
+}
+
+.sidebar-menu nav ul li ul.mega-menu>li ul li a::before {
+    background: #a749ff none repeat scroll 0 0;
+}
+
+.sidebar-menu nav ul li:hover a {
+    color: #a749ff;
+}
+
+.clickable-menu a:hover {
+    color: #a749ff;
+}
+
+.clickable-mainmenu .clickable-mainmenu-icon button:hover {
+    color: #a749ff;
+}
+
+.clickable-mainmenu .clickable-menu-style ul li a:hover {
+    background: transparent;
+    color: #a749ff;
+}
+
+.header-hm-7.stick .clickable-menu a:hover {
+    color: #a749ff;
+}
+
+.single-slider .slider-content .slider-btn a:hover {
+    border: 1px solid #a749ff;
+}
+
+.nav-style-1.owl-carousel .owl-nav div:hover {
+    color: #a749ff;
+}
+
+.slider-content-2 .slider-btn a:hover {
+    border: 1px solid #a749ff;
+}
+
+.slider-content-3 .slider-btn a:hover {
+    border: 1px solid #a749ff;
+}
+
+.nav-style-2.owl-carousel>.owl-nav div:hover {
+    background-color: #a749ff;
+}
+
+.nav-style-3.owl-carousel>.owl-nav div:hover {
+    background-color: #a749ff;
+}
+
+.slider-content-7 .slider-btn-9 a:hover {
+    border: 1px solid #a749ff;
+}
+
+.product-wrap .product-img span.purple {
+    background-color: #a749ff;
+}
+
+.product-wrap .product-img .product-action>div {
+    background-color: #a749ff;
+}
+
+.modal-dialog .modal-header .close:hover {
+    color: #a749ff;
+}
+
+.product-details-content .pro-details-rating-wrap span a {
+    color: #a749ff;
+}
+
+.product-details-content .pro-details-size-color .pro-details-size .pro-details-size-content ul li a:hover {
+    background-color: #a749ff;
+}
+
+.product-details-content .pro-details-quality .pro-details-wishlist a:hover {
+    color: #a749ff;
+}
+
+.product-details-content .pro-details-quality .pro-details-compare a:hover {
+    color: #a749ff;
+}
+
+.product-details-content .pro-details-meta ul li a:hover {
+    color: #a749ff;
+}
+
+.product-details-content .pro-details-social ul li a:hover {
+    color: #a749ff;
+}
+
+.quickview-wrap .nav-style-1.owl-carousel>.owl-nav div:hover {
+    color: #a749ff;
+}
+
+.filter-active a:hover {
+    color: #a749ff;
+}
+
+.product-wrap-2 .product-img span.purple {
+    color: #a749ff;
+}
+
+.product-wrap-2 .product-img .product-action-2 a {
+    background-color: #a749ff;
+}
+
+.product-wrap-2 .product-content-2 .title-price-wrap-2 h3 a:hover {
+    color: #a749ff;
+}
+
+.product-wrap-2 .product-content-2 .pro-wishlist-2 a:hover {
+    color: #a749ff;
+}
+
+.view-more a:hover {
+    color: #a749ff;
+    border-bottom: 1px solid #a749ff;
+}
+
+.product-wrap-3 .product-img>span.purple {
+    background-color: #a749ff;
+}
+
+.product-wrap-3 .product-content-3-wrap .product-content-3 .product-action-3 a {
+    background-color: #a749ff;
+}
+
+.collection-product .collection-content h4 a:hover {
+    color: #a749ff;
+}
+
+.product-wrap-5 .product-img span.purple {
+    background-color: #a749ff;
+}
+
+.product-wrap-5 .product-action-4 {
+    background: none repeat scroll 0 0 #a749ff;
+}
+
+.product-wrap-5 .product-content-5 h3 a:hover {
+    color: #a749ff;
+}
+
+.blog-wrap .blog-img span.purple {
+    background-color: #a749ff;
+}
+
+.blog-wrap .blog-content-wrap .blog-content span a:hover {
+    color: #a749ff;
+}
+
+.blog-wrap-2 .blog-img-2 .video-icon a:hover {
+    background-color: #a749ff;
+}
+
+.blog-wrap-2 .blog-content-2 .blog-meta-2 ul li a:hover {
+    color: #a749ff;
+}
+
+.blog-wrap-2 .blog-content-2 h4 a:hover {
+    color: #a749ff;
+}
+
+.blog-wrap-2 .blog-content-2 .blog-share-comment .blog-btn-2 a:hover {
+    color: #a749ff;
+}
+
+.nav-style-4.owl-carousel .owl-nav div {
+    background-color: #a749ff;
+}
+
+.copyright p a:hover {
+    color: #a749ff;
+}
+
+.footer-widget .footer-list ul li a:hover {
+    color: #a749ff;
+}
+
+.footer-widget .subscribe-style .subscribe-form form .clear input:hover {
+    color: #a749ff;
+    border-bottom: 2px solid #a749ff;
+}
+
+.footer-top .footer-social ul li a:hover {
+    color: #a749ff;
+}
+
+.copyright-2 p a:hover {
+    color: #a749ff;
+}
+
+.footer-white .footer-top .footer-social ul li a:hover {
+    color: #a749ff;
+}
+
+.single-banner .banner-content a:hover {
+    color: #a749ff;
+    border: 2px solid #a749ff;
+}
+
+.subscribe-style-3 .subscribe-form-3 .clear-3 input:hover {
+    background-color: #a749ff;
+}
+
+.single-count h2 {
+    color: #a749ff;
+}
+
+.funfact-content .funfact-btn a:hover {
+    border: 1px solid #a749ff;
+}
+
+.breadcrumb-content ul li a:hover {
+    color: #a749ff;
+}
+
+.sidebar-widget .sidebar-widget-list ul li a:hover span {
+    background-color: #a749ff;
+}
+
+.sidebar-widget .sidebar-widget-tag ul li a:hover {
+    background-color: #a749ff;
+}
+
+.pro-sidebar-search .pro-sidebar-search-form button:hover {
+    color: #a749ff;
+}
+
+.shop-list-wrap .shop-list-content h3 a:hover {
+    color: #a749ff;
+}
+
+.shop-list-wrap .shop-list-content .shop-list-btn a:hover {
+    border: 1px solid #a749ff;
+}
+
+.pro-pagination-style ul li a {
+    color: #a749ff;
+}
+
+.pro-pagination-style ul li a.prev,
+.pro-pagination-style ul li a.next {
+    color: #a749ff;
+}
+
+.pro-pagination-style ul li a.prev:hover,
+.pro-pagination-style ul li a.next:hover {
+    background-color: #a749ff;
+}
+
+.product-details-img .large-img-style .img-popup-wrap:hover {
+    color: #a749ff;
+}
+
+.ratting-form-wrapper .ratting-form form .form-submit input {
+    background-color: #a749ff;
+    border: 1px solid #a749ff;
+}
+
+.product-details-slider-active.nav-style-1.owl-carousel .owl-nav div:hover {
+    color: #a749ff;
+}
+
+.cart-table-content table tbody>tr td.product-name a:hover {
+    color: #a749ff;
+}
+
+.cart-table-content table tbody>tr td.product-remove a:hover {
+    color: #a749ff;
+}
+
+.cart-table-content table tbody>tr td.product-wishlist-cart>a {
+    background-color: #a749ff;
+}
+
+.cart-shiping-update-wrapper .cart-clear>a:hover {
+    background-color: #a749ff;
+}
+
+.discount-code-wrapper .tax-wrapper .tax-select-wrapper button.cart-btn-2 {
+    background-color: #a749ff;
+}
+
+.discount-code-wrapper .discount-code form button.cart-btn-2 {
+    background-color: #a749ff;
+}
+
+.grand-totall h4.grand-totall-title {
+    color: #a749ff;
+}
+
+.grand-totall a {
+    background-color: #a749ff;
+}
+
+.billing-info-wrap .checkout-account-toggle button.checkout-btn {
+    background-color: #a749ff;
+}
+
+.your-order-area .your-order-wrap .your-order-product-info .your-order-total ul li {
+    color: #a749ff;
+}
+
+.your-order-area .payment-accordion h4 a:hover {
+    color: #a749ff;
+}
+
+.your-order-area .Place-order>a {
+    background-color: #a749ff;
+}
+
+.contact-info-wrap .single-contact-info .contact-info-dec p a:hover {
+    color: #a749ff;
+}
+
+.contact-social ul li a:hover {
+    color: #a749ff;
+}
+
+.contact-form .contact-form-style button:hover {
+    background-color: #a749ff;
+}
+
+.blog-details-top .blog-details-img .video-icon a:hover {
+    background-color: #a749ff;
+}
+
+.blog-details-top .blog-details-content .blog-meta-2 ul li a:hover {
+    color: #a749ff;
+}
+
+.blog-reply-wrapper .blog-form .text-leave input {
+    background-color: #a749ff;
+}
+
+.login-register-wrapper .login-register-tab-list a.active h4 {
+    color: #a749ff;
+}
+
+.login-register-wrapper .login-form-container .login-register-form form .button-box .login-toggle-btn a:hover {
+    color: #a749ff;
+}
+
+.login-register-wrapper .login-form-container .login-register-form form .button-box button:hover {
+    background-color: #a749ff;
+}
+
+.single-my-account h3.panel-title a:hover {
+    color: #a749ff;
+}
+
+.single-my-account h3.panel-title a:hover::before {
+    color: #a749ff;
+}
+
+.single-my-account .myaccount-info-wrapper .billing-back-btn .billing-back a:hover {
+    color: #a749ff;
+}
+
+.single-my-account .myaccount-info-wrapper .billing-back-btn .billing-back a i {
+    color: #a749ff;
+}
+
+.single-my-account .myaccount-info-wrapper .billing-back-btn .billing-btn button:hover {
+    background: #a749ff;
+}
+
+.single-my-account .myaccount-info-wrapper .entries-wrapper .entries-edit-delete a:hover {
+    background-color: #a749ff;
+}
+
+.single-my-account .myaccount-info-wrapper .entries-wrapper .entries-edit-delete a.edit:hover {
+    background-color: #a749ff;
+}
+
+.main-menu nav ul li ul.mega-menu.submenu>li ul li a::before {
+    background: #a749ff none repeat scroll 0 0;
+}
+
+.theme-default-button {
+    background-color: #a749ff;
+}
+
+.product-wrap .coundown-main .single-countdown,
+.product-wrap-2 .coundown-main .single-countdown,
+.product-wrap-5 .coundown-main .single-countdown {
+    background: #a749ff;
+}
+
+.product-wrap-2 .product-img .product-action-2 .cart_button_2 {
+    background-color: #a749ff;
+}
+
+.product-wrap-3 .product-content-3-wrap .product-content-3 .product-action-3 .cart_button_2 {
+    background-color: #a749ff;
+}
+
+.sidebar-menu nav ul li ul.mega-menu.submenu>li ul li a::before {
+    background: #a749ff none repeat scroll 0 0;
+}
+
+.product-content-3 .coundown-main .single-countdown {
+    background: #a749ff;
+}
+
+.copyright-2 p a {
+    color: #a749ff;
+}
+
+.pro-pagination-style ul li.active a {
+    background-color: #a749ff;
+}
+
+.sidebar-widget .sidebar-widget-list ul li.active a {
+    color: #a749ff;
+}
+
+.shop-list-content .list-coundown .single-countdown {
+    background: #a749ff;
+}
+
+.shop-list-wrap .shop-list-content .shop-list-btn .color_button_2:hover {
+    border: 1px solid #a749ff;
+}
+
+.cart-shiping-update-wrapper .cart-clear>input:hover {
+    background-color: #a749ff;
+}
+
+.grand-totall button {
+    background-color: #a749ff;
+}
+
+.discount-code-wrapper .culculate-shipping .shipping-info button {
+    background-color: #a749ff;
+}
+
+.post-title a:hover,
+.product-tile--tile-actions a:hover {
+    color: #a749ff;
+}
+
+#compare-modal td a:hover,
+#compare-modal .product-price,
+#compare-modal .modal-close:hover .fa.fa-times-circle {
+    color: #a749ff;
+}
+
+.product-anotherinfo-wrapper .btn-primary {
+    background-color: #a749ff;
+    border-color: #a749ff;
+}
+
+.product-details-content .pro-details-quality .pro-details-cart .cart_button:hover,
+.shopify-payment-button .shopify-payment-button__button:hover,
+.shopify-payment-button .shopify-payment-button__more-options:hover {
+    background-color: #a749ff;
+}
+
+.shopify-payment-button__button--unbranded:hover:not([disabled]) {
+    background-color: #a749ff!important;
+}
+
+.product-details-content .pro-details-rating span.spr-badge-caption {
+    color: #a749ff;
+}
+
+.product-details-content .coundown_single_page .single-countdown {
+    background: #a749ff;
+}
+
+.product-details-content .pro-details-size-color .Size label:hover,
+.product-details-content .pro-details-size-color .Material label:hover {
+    background-color: #a749ff;
+}
+
+.product-wrap-3 .product-content-3-wrap .product-content-3 .product-action-3 a:hover {
+    background-color: #a749ff;
+}
+
+.product-wrap .product-img span.sale-title,
+.product-details-img .large-img-style span.sale-title,
+.zoompro-wrap .zoompro-span span.sale-title {
+    color: #fff!important;
+    background: #fa6bff!important;
+}
+
+.product-wrap .product-img span.soldout-title,
+.product-details-img .large-img-style span.soldout-title,
+.zoompro-wrap .zoompro-span span.soldout-title {
+    color: #fff!important;
+    background: #fa6bff!important;
+}
+
+.product-wrap .product-img span.percent-count,
+.product-details-img .large-img-style span.percent-count,
+.zoompro-wrap .zoompro-span span.percent-count {
+    color: #fff!important;
+    background: #fa6bff!important;
+}
+
+.product-wrap .product-img span.new-title,
+.product-details-img .large-img-style span.new-title,
+.zoompro-wrap .zoompro-span span.new-title {
+    color: #fff!important;
+    background: #fa6bff!important;
+}
+
+.product-wrap-2 .product-img span.sale-title {
+    color: #fff!important;
+}
+
+.product-wrap-2 .product-img span.soldout-title {
+    color: #fff!important;
+}
+
+.product-wrap-2 .product-img span.percent-count {
+    color: #fff!important;
+}
+
+.product-wrap-2 .product-img span.new-title {
+    color: #fff!important;
+}
